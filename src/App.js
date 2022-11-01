@@ -57,7 +57,7 @@ function App() {
       </div>
       <div className={'result ' + (hasPhoto ? 'hasPhoto' : '')}>
         <canvas ref={photoRef}></canvas>
-        <button onClick={closePhoto}>CLOSE</button>
+        <button onClick={closePhoto}>X CLOSE</button>
       </div>
     </div>
   );
